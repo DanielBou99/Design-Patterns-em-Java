@@ -1,3 +1,4 @@
+package br.com.alura.loja;
 import java.math.BigDecimal;
 
 import br.com.alura.loja.imposto.CalculadoraDeDescontos;
@@ -15,6 +16,5 @@ public class TesteDescontos {
 		
 		Orcamento segundo = new Orcamento(new BigDecimal("1000"), 1);
 		System.out.println(calculadora.calcular(segundo));
-		
 	}
 }
